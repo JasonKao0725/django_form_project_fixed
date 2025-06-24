@@ -4,7 +4,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'dummykey'  # Render 上會用環境變數覆蓋
 DEBUG = True             # Render 上設為 False
-ALLOWED_HOSTS = ['*']    # 開發中可先用 '*'
+ALLOWED_HOSTS = ['django-form-project-fixed.onrender.com']    # 開發中可先用 '*'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
