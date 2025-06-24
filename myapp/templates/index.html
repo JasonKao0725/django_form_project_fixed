@@ -1,0 +1,6 @@
+<h1>留言列表</h1>
+<ul>
+{% for msg in messages %}
+    <li>{{ msg.content }} <a href="/delete/{{ msg.id }}/">刪除</a></li>
+{% endfor %}
+</ul>
